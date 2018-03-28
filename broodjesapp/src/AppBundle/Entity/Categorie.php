@@ -26,8 +26,6 @@ class Categorie
       * @ORM\OneToMany(targetEntity="Beleg", mappedBy="beleg")
       */
     private $beleg;
-    
-    private $blogpost;
 
     /**
      * @var string
